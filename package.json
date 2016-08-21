@@ -1,0 +1,25 @@
+{
+  "name": "promise-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test:native": "node ./bench.js native",
+    "test:bluebird": "node ./bench.js bluebird"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonrhodes/promisebench.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonrhodes/promisebench/issues"
+  },
+  "homepage": "https://github.com/jasonrhodes/promisebench#readme"
+}
